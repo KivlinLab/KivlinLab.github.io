@@ -1,0 +1,96 @@
+/*!
+ * Start Bootstrap - One Page Wonder v5.0.7 (https://startbootstrap.com/template-overviews/one-page-wonder)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/master/LICENSE)
+ */
+
+body {
+  font-family: 'Lato';
+}
+
+h1,
+h2,
+h3,
+h4
+ {
+  font-family: 'Catamaran';
+  font-weight: 800 !important;
+}
+
+h5
+  {
+  font-family: 'Catamaran';
+  font-weight: 500 !important;
+  font-size: 2rem;
+ }
+ 
+h6
+  {
+  font-family: 'Catamaran';
+  font-weight: 350;
+  font-size: 1.5rem;
+ }
+
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+
+.navbar-custom {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-custom .navbar-brand {
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+}
+
+.navbar-custom .navbar-nav .nav-item .nav-link {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+  
+}
+
+ header {
+  padding-top: calc(17rem + 55px);
+  padding-bottom: 17rem;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header.masthead {
+  background:url('img/gothicmt.jpeg') #292f33;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+
+@media (min-width: 992px) {
+  header.masthead {
+    
+    padding-top: 35px;
+    padding-bottom: 0rem;
+  }
+  header.masthead .masthead-content .masthead-heading {
+    font-size: 6rem;
+  }
+  header.masthead .masthead-content .masthead-subheading {
+    font-size: 3rem;
+  }
+ 
+}
+
+html {
+  scroll-behavior: smooth;
+}
