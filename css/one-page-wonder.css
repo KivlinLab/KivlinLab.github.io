@@ -39,7 +39,7 @@ h6
 
 .navbar-custom {
   padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
+  padding-bottom: 0.6rem;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -94,3 +94,17 @@ header.masthead {
 html {
   scroll-behavior: smooth;
 }
+
+.btn {
+  background-color: #828282;
+  border: none;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: 300;
+  transition-duration: 0.2s;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
